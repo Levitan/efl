@@ -1,4 +1,4 @@
-%global svn_revision svn81641
+%global svn_revision svn82180
 
 Name:           efl
 Version:        1.7.99
@@ -311,6 +311,8 @@ find %{buildroot}%{_libdir} -name '*.la' -exec rm -v {} \;
 %{_includedir}/eio-1
 
 %changelog
+* Thu Jan 8 2012 <vlevitan91@gmail.com> - 1.7.99-1.svn82180
+- Uptade to last stable revision
 * Wed Dec 26 2012 <vlevitan91@gmail.com> - 1.7.99-1.svn81641
 - Moved devel-package needed for building only e17 to efl-devel
 * Thu Dec 20 2012 <vlevitan91@gmail.com> - 1.7.99-1.svn81177
